@@ -17,7 +17,7 @@ class User {
   findOne(id) {
     const user = this.users.find(user => user.id === id);
 
-    return user || "";
+    return user || null;
   } 
 
   find() {
